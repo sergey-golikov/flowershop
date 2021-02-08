@@ -1,0 +1,186 @@
+@font-face {
+    font-family: 'Gotham Pro Light';
+    src: url('../fonts/GothamPro-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+@font-face {
+    font-family: 'Gotham Pro Medium';
+    src: url('../fonts/GothamPro-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+        }
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('../fonts/GothamPro.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+        }
+@font-face {
+    font-family: 'MyriadPro Regular';
+    src: url('../fonts/MyriadPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+        }
+        *, *::after,*::before{
+            box-sizing: border-box;
+        }
+body{
+    background-color: #292929;
+    color: #fff;
+    font-family: 'Gotham Pro', sans-serif;
+    margin: 0;
+    }
+.header {
+    padding-top: 50px;
+}
+.description {
+ font-family: 'Gotham Pro Light';
+ font-size: 12px;
+ letter-spacing: 0.12px;
+}
+
+
+.text-color-red {
+    color: #ff3469;;
+    font-family: 'Gotham Pro Medium';
+}
+.col-md-3 {
+    text-align: right;
+    display:block
+}
+.header-phone {
+   color: #ffffff;
+   font-size: 20px;
+   font-weight: 500;
+   text-decoration: none;
+   font-weight: 500;
+   width: 191px;
+   height: 18px;
+}
+.header-info {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 7px;
+    }
+.callback {
+    color: #ff3469;
+    margin-top: 16px;
+    font-size: 16px;
+ }
+ .hero {
+     padding-top: 100px;
+     padding-bottom: 77px;
+     text-align: center;
+     border-bottom: 1px solid  #4c4c4c; 
+ }
+ .hero-title {
+    color: #ffffff;
+    font-size: 34px;
+    margin-bottom: 34px;
+    text-transform: uppercase;
+    letter-spacing: 0.34px;
+    font-family: 'Gotham Pro Medium';
+
+     }
+ .hero-discription {
+    color: #ffffff;
+    font-family: "Gotham Pro Light";
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 34px;
+    letter-spacing: 0.18px;
+    text-transform: uppercase;
+    line-height: 1.400;
+         
+ }
+ 
+ .flowers-slider{
+     width: 100%;
+     text-align: center;
+     margin-bottom: 83px;
+     margin-top: 87px;
+ }
+ :root {
+    --swiper-navigation-size: 19px;
+}
+.hero-cta {
+     margin-bottom: 34px;
+    font-size: 19px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.19px;
+    font-family: "Gotham Pro Light";
+    display: block;
+}
+.hero-button {
+    display: inline-block;
+    color: #ffffff;
+    font-family: "Gotham Pro";
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #ff2e55;
+    padding-top: 30px;
+    padding-bottom: 26px;
+    padding-left: 65px;
+    padding-right: 65px;
+    
+}
+.reviews{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.review-slide{
+ padding-left: 60px;
+ padding-right: 60px;   
+}
+.section-title{
+font-family: "Gotham Pro";
+font-size: 30px;
+font-weight: 500; 
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: center;
+text-transform: uppercase;
+letter-spacing: 0.3px;
+}
+.review-image{ 
+    width: 220px;
+    height: 220px;
+    flex-shrink: 0;
+    border-radius:50%;
+    overflow: hidden;
+    font-size: 20px;
+    font-family: 'Gotham Pro Light';
+    position: relative;
+    margin-right: 52px;
+
+}
+.review-image::before{
+    content: '';
+   width: 100%;
+   height: 100%;
+   background-color:rgba(0, 0, 0, 0.500);
+   position: absolute;
+
+}
+.review-image > * {
+    position: relative;
+}
+
+.review-name{
+    margin-bottom: 7px;
+}
+.review-image1 {
+    background:#000 url("../img/reviews/review-1.jpg");
+}
+.review-text{
+font-family: "Gotham Pro";
+font-size: 18px;
+font-weight: 400;
+letter-spacing: 0.18px;
+}
